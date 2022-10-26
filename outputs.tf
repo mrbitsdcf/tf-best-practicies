@@ -8,19 +8,19 @@ output "instance_2_id" {
   value       = try(aws_instance.instance_2.id)
 }
 
-output "website_bucket_arn" {
+output "website_bucket_1_arn" {
   description = "ARN of the bucket"
-  value       = module.website_s3_bucket.arn
+  value       = module.website_s3_bucket_1.arn
 }
 
-output "website_bucket_name" {
+output "website_bucket_1_name" {
   description = "Name (id) of the bucket"
-  value       = module.website_s3_bucket.bucket_name
+  value       = module.website_s3_bucket_1.name
 }
 
-output "website_bucket_domain" {
+output "website_bucket_1_domain" {
   description = "Domain name of the bucket"
-  value       = module.website_s3_bucket.domain
+  value       = module.website_s3_bucket_1.domain
 }
 
 output "website_bucket_2_arn" {
@@ -30,7 +30,7 @@ output "website_bucket_2_arn" {
 
 output "website_bucket_2_name" {
   description = "Name (id) of the bucket"
-  value       = module.website_s3_bucket_2.bucket_name
+  value       = module.website_s3_bucket_2.name
 }
 
 output "website_bucket_2_domain" {
