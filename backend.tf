@@ -3,5 +3,6 @@ terraform {
     bucket         = "tf-best-practicies-785126430074-us-east-1"
     key            = "terraform.tfstate"
     region         = "us-east-1"
+    dynamodb_table = "terraform-backend-lock"
   }
 }
