@@ -29,22 +29,22 @@ variable "instance_2_name" {
   type        = string
 }
 
-variable "website_s3_bucket_1_prefix"{
+variable "website_s3_bucket_1_prefix" {
   description = "Value of the Name Tag for the S3 bucket"
   type        = string
 }
 
-variable "website_s3_bucket_2_prefix"{
+variable "website_s3_bucket_2_prefix" {
   description = "Value of the Name Tag for the S3 bucket"
   type        = string
 }
 
-variable "terraform"{
+variable "terraform" {
   description = "Value of the Terraform Tag for the S3 bucket"
   type        = string
 }
 
-variable "environment"{
+variable "environment" {
   description = "Value of the Environment Tag for the S3 bucket"
   type        = string
 }
